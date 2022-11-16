@@ -1,9 +1,9 @@
 
 /**
- * Escreva uma descrição da classe Bhaskara aqui.
+ * Class Bhaskara solves a equation with 3 parameters: a, b, and c.
  * 
  * @author marco.mangan@pucrs.br 
- * @version (um número da versão ou uma data)
+ * @version 2022-11-16
  */
 public class Bhaskara
 {
@@ -11,6 +11,10 @@ public class Bhaskara
     private double b;
     private double c;
 
+    private double root1;
+    private double root2;
+    
+    
     /**
      * Construtor para objetos da classe Bhaskara
      */
@@ -25,14 +29,12 @@ public class Bhaskara
     }
     
     
-    public double raiz1() {
-        //TODO:
-        return 0.0;
+    public double getRoot1() {
+        return root1;
     }
 
-    public double raiz2() {
-        //TODO:
-        return 0.0;
+    public double getRoot2() {
+        return root2;
     }    
     
 }
