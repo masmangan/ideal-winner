@@ -2,7 +2,7 @@
 /**
  * Escreva uma descrição da classe Bhaskara aqui.
  * 
- * @author (seu nome) 
+ * @author marco.mangan@pucrs.br 
  * @version (um número da versão ou uma data)
  */
 public class Bhaskara
