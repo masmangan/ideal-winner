@@ -16,8 +16,11 @@ public class Main
         System.out.println();
         
         in = new Scanner(System.in);
+        System.out.print("Informe o valor de a: ");
         a = in.nextDouble(); 
+        System.out.print("Informe o valor de b: ");
         b = in.nextDouble();
+        System.out.print("Informe o valor de c: ");
         c = in.nextDouble();
         in.close();
         
